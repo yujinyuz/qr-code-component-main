@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+    :root {
+      --white: hsl(0, 0%, 100%);
+      --slate-300: hsl(212, 45%, 89%);
+      --slate-500: hsl(216, 15%, 48%);
+      --slate-900: hsl(218, 44%, 22%);
+    }
+
+    body {
+      background-color: var(--slate-300);
+      font-family: Outfit, 'sans-serif';
+      font-size: 15px;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      display: block;
+      background: var(--white);
+      border-radius: 15px;
+      width: 375px;
+      text-align: center;
+      padding: 1.5em;
+    }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
+    }
+
+    .card-text {
+      padding: 0 2em;
+    }
+
+    .card-text p {
+      color: var(--slate-500);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="card">
+      <img src="./images/image-qr-code.png">
+      <section class="card-text">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </section>
+    </section>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Yujin</a>.
+  </div>
+</body>
+
+</html>
